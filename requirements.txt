@@ -1,0 +1,10 @@
+# Python dependencies for download.py
+#
+# After installing, fetch the Chromium build Playwright needs:
+#   playwright install chromium
+#
+# scrapling provides StealthyFetcher (Camoufox) used to bypass Scribd's
+# bot challenge; playwright renders the captured HTML to a vector PDF.
+
+scrapling>=0.2
+playwright>=1.52
